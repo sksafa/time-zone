@@ -1,3 +1,4 @@
+import { CircularProgress } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import Admin from '../Admin/Admin';
 import ProductList from '../ProductList/ProductList';
@@ -15,6 +16,9 @@ const Home = () => {
     return (
         <div className="container mt-5">
             <div className="row">
+                {
+                    product.length === 0 && <CircularProgress />
+                }
             {
                product.map(product => <ProductList product = {product} ></ProductList> ) 
             }

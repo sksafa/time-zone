@@ -10,7 +10,7 @@ const ProductList = (props) => {
                 <img src={imageUrl} alt="" />
                 <h4>{name}</h4>
                 <div className="caption d-flex justify-content-between ">
-                    <p>${price}</p>
+                    <p>Price: ${price}</p>
                     <Link to={`/orderProduct/${_id}`}>
                         <button className="buyButton">Buy Now</button>
                     </Link>
