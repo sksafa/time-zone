@@ -1,0 +1,27 @@
+.rightSide{
+    padding: 18px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 9px 1px #008080;
+}
+.rightSide p{
+    color: #096969;
+    font-size: 22px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.rightSide input{
+    width: 88%;
+    padding: 6px 0px;
+    border: 1px solid #008080;
+    border-radius: 5px;
+}
+.addButton{
+    background-color: teal;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+.addButton:hover{
+    background-color: rgb(4, 46, 46);
+}

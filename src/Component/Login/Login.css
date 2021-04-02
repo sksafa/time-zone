@@ -1,0 +1,19 @@
+.loginSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.loginButton{
+    background: #209e00;
+    color: #fff;
+    font-size: 30px;
+    padding: 4px 19px;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 5px;
+}
+.loginButton:hover{
+    background: #0a2703;
+
+}
