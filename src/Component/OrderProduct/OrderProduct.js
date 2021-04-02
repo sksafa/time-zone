@@ -10,7 +10,7 @@ const OrderProduct = () => {
     const [orderItem, setOrderItem] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/orderProduct/' + _id)
+        fetch('https://afternoon-crag-25113.herokuapp.com/orderProduct/' + _id)
             .then(res => res.json())
             .then(data => setOrderItem(data))
     }, [_id]);
@@ -24,7 +24,7 @@ const OrderProduct = () => {
 
         }
          
-        const url =`http://localhost:5000/orderProductList`
+        const url =`https://afternoon-crag-25113.herokuapp.com/orderProductList`
         fetch(url,{
             method:'POST',
             headers:{'Content-Type':'application/json' },

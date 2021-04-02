@@ -10,14 +10,14 @@ const MangeProduct = () => {
     //  const refresh = useRefresh(history, redirectPath);
 
     useEffect(() => {
-        fetch('http://localhost:5000/product')
+        fetch('https://afternoon-crag-25113.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [product])
 
     const deleteProduct = (id) => {
 
-        fetch("http://localhost:5000/deleteProduct/" + id, {
+        fetch("https://afternoon-crag-25113.herokuapp.com/deleteProduct/" + id, {
             method: 'DELETE',
             // headers: { 'Content-Type': 'application/json' },
             // body: JSON.stringify(id)
