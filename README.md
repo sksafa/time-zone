@@ -5,6 +5,8 @@ Description:
 • Products can be added and removed from the database.
 • A customer order watch and save in database.
 • Filtering and showing order history for individual email.
+
+
 • Technologies used: React, Bootstrap5, MongoDB, Node, Express, Firebase.
 
 
