@@ -2,10 +2,12 @@ Project Title: Time Zone.
 
 Description:
 • This site will be showing various watch of various brand.
-• Products can be added and removed from the database.
-• A customer order watch and save in database.
-• Filtering and showing order history for individual email.
 
+• Products can be added and removed from the database.
+
+• A customer order watch and save in database.
+
+• Filtering and showing order history for individual email.
 
 • Technologies used: React, Bootstrap5, MongoDB, Node, Express, Firebase.
 
